@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="YouCode is the best ">
+    <meta name="keywords" content="Youcode,WEB,Yousoufia">
+    <title>Youcode Login</title>
+
+    <!-- Bootstrap CDN  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/41b76b9136355dafbe618d35a4f225b6?family=TrumpGothicWestW01-Bold" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <!-- Bootstrap CDN END -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!--   Add    start -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+    <!--   Add  End     -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/YouCodeSchool/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/YouCode18" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCH0jcvsX0N-63SyYooyahHg" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top bg-l p-0 pl-2">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="img/LOGO-YOUCODE.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto ml-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="mt-3 pb-2 fas fa-home "></i>
+                        <p class="menp">Acceuil</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Peda.html"><i class="mt-3 pb-2 fas fa-graduation-cap "></i>
+                        <p class="menp">Pédagogies</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Programme.html"><i class="mt-3 pb-2 far fa-calendar-times "></i>
+                        <p class="menp">Programme</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page_activity.html"><i class="mt-3 pb-2 far fa-newspaper"></i>
+                        <p class="menp">Activité</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="mt-3 pb-2 fas fa-headset"></i>
+                        <p class="menp">Contact</p>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <div class="search-container">
+                    <div class="search-icon-btn">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="search-input">
+                        <input type="search" class="search-bar" placeholder="Search...">
+                    </div>
+                </div>
+                <a href="login.html" class="mr-3 bottins">S'inscrire</a>
+                <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+        </div>
+    </nav>
+    <!-- Nav Bar END -->
+    <header id="we-make">
+        <div class="row newLogin">
+
+            <div class="form-modal mt-5">
+
+                <div class="form-toggle">
+                    <button id="login-toggle" onclick="toggleLogin()">Connection</button>
+                    <button id="signup-toggle" onclick="toggleSignup()">Inscription</button>
+                </div>
+
+                <div id="login-form">
+                    <form>
+                        <input type="text" placeholder="Email" id="email" />
+                        <input type="password" placeholder="Mot de Passe" id="psw" />
+                        <button type="button" class="btn login" onclick="pushPage()">Se connecter</button>
+                        <p><a href="javascript:void(0)">Mot de passe oublié ?</a></p>
+                        <hr />
+
+
+                    </form>
+                </div>
+
+                <div id="signup-form">
+                    <form>
+                        <input type="email" placeholder="Email" />
+                        <input type="text" placeholder="Mot de passe" />
+                        <input type="password" placeholder="Confirmer mot de passe" />
+                        <button type="button" class="btn signup">Créer un compte</button>
+                        <p>En cliquant sur <strong>Créer un compte</strong> vous acceptez nos conditions de services.
+                            <a href="javascript:void(0)">terms of services</a>.</p>
+                        <hr />
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row lastlogin">
+            <section class="user">
+                <div class="user_options-container">
+                    <div class="user_options-text">
+                        <div class="user_options-unregistered">
+                            <h2 style="font-family: 'Roboto', sans-serif ;" class="user_unregistered-title">YOUCODE</h2>
+                            <p style="font-family: 'Roboto', sans-serif ;" class="user_unregistered-text">Le numérique
+                                et les nouvelles technologies
+                                sont partout autour de nous.</p>
+                            <button style="font-family: 'Roboto', sans-serif ;" class="user_unregistered-signup" id="signup-button">s'inscrire</button>
+                        </div>
+
+                        <div class="user_options-registered">
+                            <h2 style="font-family: 'Roboto', sans-serif ;" class="user_registered-title">YOUCODE</h2>
+                            <p style="font-family: 'Roboto', sans-serif ;" class="user_registered-text">Le numérique et
+                                les nouvelles technologies
+                                sont partout autour de nous.</p>
+                            <button style="font-family: 'Roboto', sans-serif ;" class="user_registered-login" id="login-button">S'IDENTIFIER</button>
+                        </div>
+                    </div>
+
+                    <div class="user_options-forms" id="user_options-forms">
+                        <div class="user_forms-login">
+                            <h2 style="font-family: 'Roboto', sans-serif ;" class="forms_title">S'IDENTIFIER</h2>
+                            <form class="forms_form">
+                                <fieldset class="forms_fieldset">
+                                    <div class="forms_field">
+                                        <input id="emailA" type="email" placeholder="Email" class="forms_field-input"
+                                            required autofocus />
+                                    </div>
+                                    <div class="forms_field">
+                                        <input id="pswA" type="password" placeholder="Mot de Passe" class="forms_field-input"
+                                            required />
+                                    </div>
+                                </fieldset>
+                                <div class="forms_buttons">
+                                    <button type="button" class="forms_buttons-forgot">Mot de passe oublié?</button>
+                                    <input type="submit" value="S'IDENTIFIER" onclick="pushPage()" class="forms_buttons-action">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="user_forms-signup">
+                            <h2 style="font-family: 'Roboto', sans-serif ;" class="forms_title">s'inscrire</h2>
+                            <form class="forms_form">
+                                <fieldset class="forms_fieldset">
+                                    <div class="forms_field">
+                                        <input type="text" placeholder="Nom" class="forms_field-input" required />
+                                    </div>
+                                    <div class="forms_field">
+                                        <input type="email" placeholder="Email" class="forms_field-input" required />
+                                    </div>
+                                    <div class="forms_field">
+                                        <input type="password" placeholder="Mot de Passe" class="forms_field-input"
+                                            required />
+                                    </div>
+                                </fieldset>
+                                <div class="forms_buttons">
+                                    <input type="submit" value="S'inscrire" class="forms_buttons-action">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="form-modal">
+
+
+
+
+
+            <!-- Add -->
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- Bootstrap -->
+            <script src="assets/js/bootstrap.js"></script>
+            <!-- Slick Slider -->
+            <script type="text/javascript" src="assets/js/slick.js"></script>
+            <!-- Add fancyBox -->
+            <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+            <!-- Wow animation -->
+            <script type="text/javascript" src="assets/js/wow.js"></script>
+            <!-- Off-canvas Menu -->
+            <script src="assets/js/classie.js"></script>
+
+            <!-- Custom js -->
+            <script type="text/javascript" src="assets/js/custom.js"></script>
+
+
+            <!-- End -->
+            <script src="js/log in.js"></script>
+            <script src="js/login2.js"></script>
+    </header>
+    <!-- Footer -->
+    <!-- FOOTER -->
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container-fluid footer_background">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="h6_" href="#!">pédagogies</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="h6_" href="#!">programme</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="h6_" href="#!">activité</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="h6_" href="#!">Contact</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a class="h6_" href="#!">s'inscrire</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+                <div class="col-md-8 col-12 mt-5 text-white">
+                    <p style="line-height: 1.7rem">L’inscription aux tests en ligne de YouCode est simple comme la
+                        ligne de code « mailto: », alors plus d’hésitation, <a class="text-white font-weight-bold display-5"
+                            href="">inscrivez-vous..</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+            <!-- Grid row-->
+            <div class="row pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-12">
+
+                    <div class="my-4 d-flex justify-content-center ">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg text-white mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg text-white mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg text-white mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg text-white mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg text-white mr-4"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg text-white"> </i>
+                        </a>
+
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-white py-3">© 2019 Copyright:
+            <a href="https://www.youcode.ma"> <span class="font_style text-white display-5">You<span class="font_style text-dark display-5">Code</span></span></a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <script>
+        //var email = document.getElementById("emailA").value;
+        //var psw = document.getElementById("pswA").value;
+        var email = $("#emailA").val()
+        var psw = $("#pswA").val()
+        //alert(email + "-- " + psw);
+
+        function pushPage() {
+            location.replace("espace_etudiant.html");
+            /*if (email == "admin@admin.com" && psw == "admin") {
+                window.location.href = "/Admin_dashboard/dashboard.html?";
+            } else if (email == "user@user.com" && psw == "user") {
+                window.location.href = "/espace_etudiant.html?";
+            }
+            alert(email + "dd " + psw);*/
+        }
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/bootstrap/vendor/jquery-3.1.1.js"><\/script>')
+    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/bootstrap/holder.min.js"></script>
+</body>
+
+</html>

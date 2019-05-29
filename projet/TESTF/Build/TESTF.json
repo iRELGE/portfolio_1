@@ -1,0 +1,13 @@
+{
+"companyName": "iRELG",
+"productName": "Prison Escape jailbreak",
+"dataUrl": "TESTF.data.unityweb",
+"asmCodeUrl": "TESTF.asm.code.unityweb",
+"asmMemoryUrl": "TESTF.asm.memory.unityweb",
+"asmFrameworkUrl": "TESTF.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

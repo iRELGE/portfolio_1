@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_787" data-name="Rectangle 787" width="42" height="42" transform="translate(666 25)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_3" data-name="Groupe de masques 3" transform="translate(-666 -25)" clip-path="url(#clip-path)">
+    <g id="iconfinder_Streamline-18_185038" transform="translate(666 23.855)">
+      <g id="Groupe_406" data-name="Groupe 406">
+        <g id="Groupe_403" data-name="Groupe 403">
+          <path id="Tracé_2543" data-name="Tracé 2543" d="M36.75,42H24.5V30.625h-7V42H5.25V23.625a.875.875,0,1,1,1.75,0V40.25h8.75V28.875h10.5V40.25H35V24.5a.875.875,0,0,1,1.75,0Z" fill="#0b2146"/>
+        </g>
+        <g id="Groupe_404" data-name="Groupe 404">
+          <path id="Tracé_2544" data-name="Tracé 2544" d="M41.125,23.625a.872.872,0,0,1-.6-.242L21,4.711,1.48,23.383A.875.875,0,0,1,.27,22.118L21,2.289,41.73,22.118a.875.875,0,0,1-.6,1.508Z" fill="#0b2146"/>
+        </g>
+        <g id="Groupe_405" data-name="Groupe 405">
+          <path id="Tracé_2545" data-name="Tracé 2545" d="M34.125,13.125a.875.875,0,0,1-.875-.875V7H28a.875.875,0,1,1,0-1.75h7v7A.875.875,0,0,1,34.125,13.125Z" fill="#0b2146"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

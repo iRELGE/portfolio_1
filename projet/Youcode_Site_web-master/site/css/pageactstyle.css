@@ -1,0 +1,317 @@
+body {
+    align-content: center;
+}
+
+#title {
+    text-transform: uppercase;
+    font-family: "Segoe UI";
+    color: #0B2146;
+}
+
+#divtitle {
+    text-align: center;
+    padding: 1rem;
+    margin-left: 11rem;
+}
+
+
+.line {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 104%;
+    height: 1px;
+    background-image: url(../pictures/bar.png);
+}
+
+#imgbar {
+    margin-top: -2rem;
+    margin-left: -7rem;
+}
+
+#cont {
+    padding: 20px;
+    text-align: center;
+}
+
+.slideshow_wrapper {
+    width: 500px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.slide {
+
+    width: 662px;
+    height: 295px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+
+}
+
+.slideshow img {
+    width: 500px;
+    height: 270px;
+}
+
+#activity {
+    margin-left: 42rem;
+}
+
+#pics {
+
+    width: 100%;
+    height: 234px;
+    padding: 6px;
+}
+
+#par1 {
+    color: #2699FB;
+    font-family: "Arial";
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: -3px;
+}
+
+#par2 {
+    color: #2699FB;
+    font-family: "Arial";
+}
+
+#par3 {
+    color: #2699FB;
+    font-family: "Arial";
+    width: 100%;
+}
+
+#lire-tous {
+    float: right;
+    text-transform: capitalize;
+    margin-top: -12px;
+}
+
+.details ul li {
+    margin-top: -12px;
+}
+
+@-webkit-keyframes slide_animation {
+
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 500px;
+    }
+
+    20% {
+        left: 500px;
+    }
+
+    30% {
+        left: 500px;
+    }
+
+    40% {
+        left: 500px;
+    }
+
+    50% {
+        left: 500px;
+    }
+
+    60% {
+        left: 500px;
+    }
+
+    70% {
+        left: 1000px;
+    }
+
+    80% {
+        left: 1000px;
+    }
+
+    90% {
+        left: 1000px;
+    }
+
+    100% {
+        left: 1000px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .line {
+        margin-left: -20px;
+        width: 109%;
+    }
+
+    .slide {
+        margin-left: -33px;
+        width: 400%;
+    }
+
+    .slide,
+    #activity {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #activity {
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 382px) {
+    .slide {
+        width: 535% !important;
+        height: 138px;
+        margin-left: -32px !important;
+    }
+
+    #precedent,
+    #suivant {
+        margin-top: -12%;
+    }
+
+    .line {
+        width: 114% !important;
+        margin-left: -1rem !important;
+    }
+
+    .window {
+        background-color: #F0F0F0;
+        border-radius: 2px;
+        overflow: scroll;
+        padding: 20px;
+        height: 300px;
+        margin-top: 2rem;
+        width: 300px !important;
+    }
+
+    #card {
+        background-color: #C5EEFF;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        height: 167px;
+        width: 162%;
+    }
+
+    #title {
+        text-transform: uppercase;
+        font-family: "Segoe UI";
+        color: #0B2146;
+        margin-left: -15rem;
+    }
+
+    #imgbar {
+        margin-top: -2rem;
+        margin-left: -23rem;
+    }
+
+    .cardimage {
+        margin-left: 0% !important;
+        width: 2% !important;
+        height: 99% !important;
+        display: flex;
+        margin-top: -107px !important;
+        border-radius: 2px;
+    }
+}
+
+@media (max-width: 652px) {
+    .window {
+        background-color: #F0F0F0;
+        border-radius: 2px;
+        overflow: scroll;
+        padding: 20px;
+        height: 300px;
+        margin-top: 2rem;
+        width: 313px !important;
+    }
+}
+
+@media (max-width: 666px) {
+    .window {
+        background-color: #F0F0F0;
+        border-radius: 2px;
+        overflow: scroll;
+        padding: 20px;
+        height: 300px;
+        margin-top: -1rem;
+        width: 545px !important;
+    }
+
+    .cardimage {
+        margin-left: -99% !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .window {
+        background-color: #F0F0F0;
+        border-radius: 2px;
+        overflow: scroll;
+        padding: 20px;
+        height: 300px;
+        margin-top: 1rem;
+        width: 634px !important;
+        margin-left: -3rem;
+    }
+
+    .line {
+        margin-left: -4rem;
+        width: 634px;
+    }
+
+    .cardimage {
+        margin-left: -100% !important;
+    }
+
+    .semitire3 {
+        text-transform: uppercase;
+        transform: rotate(270deg);
+        margin-top: -82px;
+        margin-left: -90% !important;
+    }
+
+    .slide {
+        margin-left: -5rem;
+        width: 464%;
+    }
+
+    #title,
+    #imgbar {
+        margin-left: -12rem;
+    }
+
+    #imgbar {
+        margin-left: -19rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .slide {
+        margin-left: -2rem !important;
+    }
+
+    .window {
+        width: 34rem !important;
+        margin-left: 0rem !important;
+    }
+
+    #divtitle {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .window {
+        width: 24rem !important;
+        margin-left: 0rem !important;
+    }
+}

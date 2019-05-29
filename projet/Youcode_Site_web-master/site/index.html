@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="description" content="YouCode is the best ">
+    <meta name="keywords" content="Youcode,WEB,Yousoufia">
+    <link rel="icon">
+
+    <title>Youcode Acceuil</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="animate/animate.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/YouCodeSchool/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/YouCode18" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCH0jcvsX0N-63SyYooyahHg" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top bg-l p-0 pl-2">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="img/LOGO-YOUCODE.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="mt-3 pb-2 fas fa-home "></i>
+                            <p class="menp">Acceuil</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Peda.html"><i class="mt-3 pb-2 fas fa-graduation-cap "></i>
+                            <p class="menp">Pédagogies</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Programme.html"><i class="mt-3 pb-2 far fa-calendar-times "></i>
+                            <p class="menp">Programme</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page_activity.html"><i class="mt-3 pb-2 far fa-newspaper"></i>
+                            <p class="menp">Activité</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html"><i class="mt-3 pb-2 fas fa-headset"></i>
+                            <p class="menp">Contact</p>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <div class="search-container">
+                        <div class="search-icon-btn">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div class="search-input">
+                            <input type="search" class="search-bar" placeholder="Search...">
+                        </div>
+                    </div>
+                    <a href="login.html" class="mr-3 bottins">S'inscrire</a>
+                    <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <header id="we-make">
+                <div>
+                    <video class="d-none" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid"
+                        playsinline autoplay loop>
+                        <!-- 
+                              - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+                              WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+                        <source src="videos/video_youcode.webm" type="video/webm">
+                        <source src="videos/video_youcode.mp4" type="video/mp4">
+
+                    </video>
+                </div>
+                <div class="row h-100 mr-5 d-flex bd-highlight justify-content-center align-items-center" id="rowHeader">
+                    <div class="p-2 bd-highlight col-6 d-flex justify-content-center classvideo">
+                        <div>
+                            <button class="d-flex flex-column justify-content-center align-items-center" id="playVideo"
+                                onclick="playvideo()" style="background: none;
+                                    border: none;"><img
+                                    class="w-25" src="img/play.png" alt="">
+                                <span class="text-primary display-4 pl-4 text-center"> Regarder la Video</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-2 bd-highlight col-6 mt-5 bd-highlight headerTitleDiv">
+                        <div>
+                            <h1 class="h1_style display-1 text-left text-white ">WE MAKE YOUR
+                                STARTUP HAPPEN</h1>
+                            <p class="para_style display-5 text-white text-left border-bottom border-primary ">Le
+                                numérique
+                                et
+                                les
+                                nouvelles
+                                technologies
+                                sont partout autour de nous,</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+
+        <!-- Card Youcode 
+      ================================================== -->
+        <!-- + video . -->
+
+        <div class="container-fluid">
+            <div class="row featurette py-4">
+                <div class="col-md-6 order-md-1 pl-4 " data-aos="fade-right" data-aos-duration="1500">
+                    <h2 class="featurette-heading font-weight-normal text-center"><span>
+                            <span style="color: #000;">You</span> <span style="color: #038DFE;">
+                                Code</span>… Your School</span></h2>
+                    <p class="font-weight-normal blockquote text-dark text-monospace text-justify mx-2" style="font-family: 'Roboto', serif; padding : 3rem;text-align: center;">YouCode…
+                        Ce n’est
+                        pas un simple nom. C’est
+                        toute une philosophie. YouCode est une école inclusive qui donne une chance.
+                        You… comme… toi. YouCode place l’individu au centre de sa pédagogie en même temps
+                        qu’elle
+                        l’aide à développer une synergie de travail avec les autres étudiants.
+                        You… comme Youssoufia, une ville située à quelques heures de Casablanca et de
+                        Marrakech. Un
+                        endroit idéal pour y étudier le code, loin de l’effervescence des grandes villes.
+                        Code… comme code. Du site web aux algorithmes en passant par les applis.
+
+                    </p>
+                </div>
+                <div class="col-md-6 order-md-2 embed-responsive embed-responsive-16by9 " data-aos="flip-right"
+                    data-aos-duration="1500">
+                    <iframe src="https://streamable.com/s/72xq8/eriad" frameborder="0" width="100%" height="100%"
+                        allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- end div container -->
+
+
+        <!-- Marketing messaging and featurettes
+      ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container-fluid marketing">
+
+
+            <!-- START THE FEATURETTES -->
+
+            <!-- <hr class="featurette-divider"> -->
+
+            <div class="row featurette py-2 bg-primary">
+                <div class="col-md-6 pl-4 " data-aos="zoom-in-right" data-aos-duration="1500">
+                    <h2 class="featurette-heading text-white">YouCode ...<span class="text-white"><br>your school</b>.</span></h2>
+                    <img class="icon-box pathimage" src="img/Path%2090.png">
+
+                    <p class="lead text-white">YouCode…
+                        Ce n’est pas un simple nom. C’est toute une philosophie.
+                        YouCode est une école inclusive qui donne une chance.
+                        You… comme… toi. YouCode place l’individu au centre de sa
+                        pédagogie
+                        en même temps qu’elle l’aide à développer une synergie de travail
+                        avec les autres étudiants.
+                        You… comme Youssoufia, une ville située à quelques heures de
+                        Casablanca et de Marrakech.
+                        Un endroit idéal pour y étudier le code, loin de l’effervescence des
+                        grandes villes.
+                        Code… comme code. Du site web aux algorithmes en passant par
+                        les applis.</p>
+                </div>
+                <div class="col-md-6 " data-aos="zoom-out-right" data-aos-duration="1500">
+                    <img class="w-100" src="img/row1.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <!-- <hr class="featurette-divider"> -->
+
+            <div class="row featurette row_style">
+                <div class="col-md-7 order-md-2 pl-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h2 class="featurette-heading">Votre avenir <span class="text-muted">en numerique</span></h2>
+                    <img class="icon-box pathimage" src="img/Path%2090.png">
+                    <p class="lead text-dark">Le numérique et les nouvelles technologies sont partout autour de nous,
+                        mais
+                        leur code et leur langage ne sont pas toujours naturels et innés pour tous. La
+                        fracture
+                        entre
+                        ceux qui parlent le « numérique » et le manipulent avec aisance et les autres est
+                        souvent
+                        très
+                        grande. C’est pourquoi YouCode veut mettre le code entre toutes les mains pour
+                        réduire
+                        les
+                        inégalités numériques et donner sa chance à tout un chacun.</p>
+                </div>
+                <div class="col-md-5 order-md-1" data-aos="fade-down" data-aos-duration="1500">
+                    <img class="w-100" src="img/row2.png" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <!-- <hr class="featurette-divider"> -->
+
+            <div class="row featurette row_style bg-primary">
+                <div class="col-md-7 pl-4" data-aos="zoom-out-right" data-aos-duration="1500">
+                    <h2 class="featurette-heading"><span class="text-white">Une formation<br>gratuite<br>et
+                            professionnelle.</span></h2>
+                    <img class="icon-box pathimage" src="img/Path%2090.png">
+                    <p class="lead text-white">YouCode ouvrira ses portes à Youssoufia en octobre 2018. Destinées en
+                        priorité
+                        aux
+                        jeunes de 18 à 35 ans, les formations proposées par YouCode sont gratuites,
+                        professionnalisantes, intensives et ne nécessitent aucun pré-requis technique ou de
+                        diplôme.
+                        Elles s’adressent à tout le monde et n’excluent personne. Pas la peine donc d’être
+                        geek
+                        ou
+                        particulièrement doué en informatique pour pouvoir en bénéficier : une bonne dose
+                        de
+                        motivation suffit !</p>
+                </div>
+                <div class="col-md-5" data-aos="zoom-in-right" data-aos-duration="1500">
+                    <img class="w-100" src="img/row3.png" alt="Generic placeholder image">
+                </div>
+            </div>
+            <div class="row featurette row_style">
+                <div class="col-md-7 order-md-2 pl-4" data-aos="fade-in" data-aos-duration="1500">
+                    <h2 class="featurette-heading">Une école à la pointe modernité <span class="text-muted"> à
+                            la pointe modernité </span></h2>
+                    <img class="icon-box pathimage" src="img/Path%2090.png">
+                    <p class="lead text-da">Cette école high-tech de plus de 600 m² est dotée de 4 salles de cours
+                        équipées
+                        d’ordinateurs de dernière génération et d’internet haut débit, ainsi que
+                        d’équipements
+                        à la
+                        pointe de la technologie et spécialement étudiés pour favoriser la collaboration
+                        entre
+                        étudiants.
+                        Un espace détente de 100 m² est également aménagé et permettra aux étudiants de s’y
+                        retrouver pour déconnecter, échanger, collaborer ou se divertir..</p>
+                </div>
+                <div class="col-md-5 order-md-1" data-aos="fade-down" data-aos-duration="1500">
+                    <img class="w-100" src="img/row4.png" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <!-- <hr class="featurette-divider"> -->
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+        <!-- Card Simplon 
+      ================================================== -->
+        <!-- + video . -->
+
+        <div class="container-fluid">
+            <div class="row featurette py-4">
+                <div class="col-md-6 order-md-1 pl-2 bg-primary" data-aos="fade-right" data-aos-duration="1500">
+                    <h4 class="font-weight-bold text-center pt-4 text-dark">powered
+                        by</h4>
+                    <h2 class="featurette-headingTwo font-weight-normal text-center text-white">Simplon.co</h2>
+                    <p class="font-weight-normal blockquote text-white text-monospace text-justify mx-2 p pl-5 pr-5 pt-3">Simplon.co
+                        est un réseau de fabriques
+                        numériques et inclusives en France et à l’étranger. L’école a formé plus de 2000
+                        apprenants
+                        aux
+                        métiers du numérique depuis 2013.
+                        Simplon.co une entreprise sociale et solidaire qui veut faire du numérique un véritable
+                        levier
+                        d’inclusion et révéler des talents parmi des publics peu représentés dans le secteur.
+                        Simplon conseille les entreprises dans leur transformation digitale et parfois réalise
+                        leurs
+                        sites et leurs applications.
+
+                    </p>
+                    <div class="text-center pb-3">
+                        <img class="icon_simplon" src="img/Groupe%2030.png" alt="simplon.co">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-2 embed-responsive embed-responsive-16by9" data-aos="flip-right"
+                    data-aos-duration="1500">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nQMvGCZgFbI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+        <!-- end div container -->
+
+
+        <!-- Container Count Simplon -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 pl-5 py-5">
+                    <div class="border-right beforFooter1">
+                        <div class="text-center py-4"><span class="display-4 font-weight-bold lead counter count ">1132</span></div>
+                        <p class="display-5 font-weight-normal lead_ text-center pStyle">Simploniens<br>dans le monde</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pl-5 py-5">
+                    <div class="border-right beforFooter1">
+                        <div class="text-center py-4"><span class="display-4 font-weight-bold lead counter count cntnum">39</span><span
+                                class="display-4"> %</span>
+                        </div>
+                        <p class="display-5 font-weight-normal lead_ text-center pStyle"> De Sorties<br>
+                            Positives Après<br>
+                            6 Mois De Formation</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pl-5 py-5 beforFooter1">
+                    <div class="text-center py-4"><span class="display-4 font-weight-bold lead counter count cntnum">26</span></div>
+                    <p class="display-5 font-weight-normal lead_ text-center pStyle">Fabriques<br>
+                        Ouvertes En France<br>
+                        Et À L'International</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6 beforFooter2 d-flex flex-row align-items-start" data-aos="flip-right"
+                    data-aos-duration="800">
+                    <span class="anne text-white text-center pl-2 pr-2 mb-5 mt-3">2014-2015</span>
+                    <p class="text-dark font-weight-bold pStyle">Simplon.co se développe en dehors de
+                        Montreuil et des
+                        fabriques
+                        commencent
+                        à pousser dans
+                        les
+                        quartiers prioritaires et ruraux de France.</p>
+                </div>
+                <div class="col-md-6 beforFooter2 d-flex flex-row align-items-start" data-aos="flip-right"
+                    data-aos-duration="800">
+                    <span class="anne text-white text-center pl-2 pr-2 mb-5 mt-3">2016-2017</span>
+                    <p class="text-dark font-weight-bold pStyle">C’est le début du développement international.
+                        Après
+                        la Roumanie
+                        ouverte en
+                        2014, c’est au
+                        tour de Bruxelles, du Liban, de la Côte d’Ivoire et de l’Afrique du Sud.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End -->
+
+        <!-- FOOTER -->
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo">
+
+            <!-- Footer Links -->
+            <div class="container-fluid footer_background">
+
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a class="h6_" href="#!">pédagogies</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a class="h6_" href="#!">programme</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a class="h6_" href="#!">activité</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a class="h6_" href="#!">Contact</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a class="h6_" href="#!">s'inscrire</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+                <hr class="rgba-white-light" style="margin: 0 15%;">
+
+                <!-- Grid row-->
+                <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                    <!-- Grid column -->
+                    <div class="col-md-8 col-12 mt-5 text-white">
+                        <p style="line-height: 1.7rem">L’inscription aux tests en ligne de YouCode est simple comme la
+                            ligne de code « mailto: », alors plus d’hésitation, <a class="text-white font-weight-bold display-5"
+                                href="">inscrivez-vous..</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+                <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+                <!-- Grid row-->
+                <div class="row pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+
+                        <div class="my-4 d-flex justify-content-center ">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic">
+                                <i class="fab fa-facebook-f fa-lg text-white mr-4"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter fa-lg text-white mr-4"> </i>
+                            </a>
+                            <!-- Google +-->
+                            <a class="gplus-ic">
+                                <i class="fab fa-google-plus-g fa-lg text-white mr-4"> </i>
+                            </a>
+                            <!--Linkedin -->
+                            <a class="li-ic">
+                                <i class="fab fa-linkedin-in fa-lg text-white mr-4"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram fa-lg text-white mr-4"> </i>
+                            </a>
+                            <!--Pinterest-->
+                            <a class="pin-ic">
+                                <i class="fab fa-pinterest fa-lg text-white"> </i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center text-white py-3">© 2019 Copyright:
+                <a href="https://www.youcode.ma"> <span class="font_style text-white display-5">You<span class="font_style text-dark display-5">Code</span></span></a>
+                <select class="dropdown text-white font-weight-normal">
+                    <option value="French text-white">French</option>
+                    <option value="English text-white">English</option>
+                    <option value="Arabic text-white">Arabic</option>
+                    <option value="Arabic text-white">Amazigh</option>
+                </select>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </main>
+
+    <!-- Animation Package Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- End animation script -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/bootstrap/vendor/jquery-3.1.1.js"><\/script>')
+    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/bootstrap/holder.min.js"></script>
+
+    <script>
+        var play = document.getElementById("playVideo");
+        var Header = document.getElementById("rowHeader");
+        var Header_main = document.getElementById("we-make");
+        var divClass2 = document.getElementById("divClass2");
+        //var header = document.getElementById("we-make");
+        var vid = document.getElementById("bgvid");
+
+        //vid.pause();
+        //vid.removeAttribute('muted');
+        var flag = 1;
+        if (window.matchMedia('(prefers-reduced-motion)').matches) {
+            vid.removeAttribute("autoplay");
+            vid.pause();
+        }
+
+        function vidFade() {
+            vid.classList.add("stopfade");
+        }
+        vid.addEventListener('ended', function () {
+            // only functional if "loop" is removed 
+            vid.pause();
+            // to capture IE10
+            vidFade();
+        });
+        if (flag == 1) {
+            vid.pause();
+        }
+        $('#bgvid').click(function () {
+            if (flag == 0) {
+                this.pause();
+                flag = 1;
+            } else {
+                this.play();
+                flag = 0;
+            }
+        });
+
+        function playvideo() {
+            flag = 0;
+
+            if (flag == 0) {
+                vid.play();
+                vid.removeAttribute("muted");
+                vid.classList.remove("d-none");
+                Header.className = 'd-none';
+                Header_main.className = 'back_none';
+                //header.className = 'newBack';
+                //divClass.className = 'noneDiv';
+
+                divClass2.className = 'noneDiv';
+                //header.className = 'we-make';
+                video.className = "videoStyle2";
+                vid.classList.toggle("stopfade");
+
+                if (vid.paused) {
+
+                    vid.play();
+                } else {
+                    vid.pause();
+                }
+                flag = 1;
+            } else {
+                flag = 0;
+                divClass2.classList.remove('noneDiv');
+                header.classList.remove('noneDiv');
+                vid.classList.remove('videoStyle2');
+            }
+        }
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+
+</html>
